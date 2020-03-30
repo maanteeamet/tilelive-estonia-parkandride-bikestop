@@ -7,7 +7,7 @@ var osmtogeojson = require('osmtogeojson');
 
 const api = "http://localhost:8080";
 
-const overpassQuery = "https://estonia-parkandride--tuukkah.repl.co/";
+const overpassQuery = "http://parkandride-overpass-proxy:8080/";
 
 const getTileIndex = (url, callback) => {
     request({
